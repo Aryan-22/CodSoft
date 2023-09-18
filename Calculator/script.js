@@ -7,7 +7,7 @@ icon.onclick=function(){
     if(document.body.classList.contains("dark-theme")){
         icon.src="../dark theme icon/sun.png";
     }else{
-        icon.src="../dark theme icon/sun.png";
+        icon.src="../dark theme icon/moon.png";
     }
 }
 
