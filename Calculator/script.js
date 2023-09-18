@@ -1,6 +1,14 @@
 let input = document.getElementById('inputBox');
 let buttons = document.querySelectorAll('button');
 
+var icon=document.getElementById('icon');
+icon.onclick=function(){
+    document.body.classList.toggle("dark-theme");
+    if(document.body.classList.contains("dark-theme")){
+        icon.src="/dark theme icon/sun.png";
+    }
+}
+
 let string = "";
 let arr = Array.from(buttons);
 arr.forEach(button => {
